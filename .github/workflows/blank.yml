@@ -37,7 +37,7 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           ls -lah
-          echo secrets.PASS_CODE
+          echo ${{secrets.PASS_CODE}}
           pwd
           uname -a
           date
